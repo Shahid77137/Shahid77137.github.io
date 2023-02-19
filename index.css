@@ -163,6 +163,17 @@ section{
     
 
 }
+#user-detail-skill{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+
+#user-detail-name{
+    font-size: 55px;
+    font-weight: 800;
+}
+
 /* .menu-btn{
     display: inline-block;
     padding: 2px 10px;
