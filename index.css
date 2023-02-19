@@ -142,9 +142,9 @@ section{
     align-items: center;
     justify-content: center;
 }
-.btn{
+#resume-link-2{
     display: inline-block;
-    padding: 12px 28px;
+    padding: 12px 25px 12px 10px;
     background: var(--main-color);
     border-radius: 5px;
     color: var(--text-color);
@@ -154,8 +154,14 @@ section{
     transition: all .45s ease;
     border:  solid 0px;
 }
-.btn:hover{
+#resume-link-2:hover{
     transform: scale(1.0);
+}
+
+#resume-link-1{
+    border: 0px solid white;
+    
+
 }
 /* .menu-btn{
     display: inline-block;
