@@ -82,7 +82,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url("/image/Black\ Neon\ banner.png");
+    background-image: url("/image/banner.png");
 
     background-size: cover;
     background-position: center;
@@ -152,10 +152,23 @@ section{
     letter-spacing: 1px;
     font-weight: 600;
     transition: all .45s ease;
+    border:  solid 0px;
 }
 .btn:hover{
-    transform: scale(0.9);
+    transform: scale(1.0);
 }
+/* .menu-btn{
+    display: inline-block;
+    padding: 2px 10px;
+    background: var(--bg-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+    border:  solid 0px;
+} */
 
 header.sticky{
     background: var(--bg-color);
