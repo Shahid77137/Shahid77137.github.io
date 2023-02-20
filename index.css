@@ -333,7 +333,7 @@ header.sticky{
 } */
 #nav-link-projects{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(850px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
@@ -343,7 +343,7 @@ header.sticky{
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-    height: 500px;
+    /* height: 500px; */
 }
 .project-card img{
     width: 100%;
