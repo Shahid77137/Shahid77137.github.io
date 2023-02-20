@@ -253,7 +253,7 @@ header.sticky{
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
     gap: 2.5rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .skills-card{
     background: var(--bg-color);
@@ -336,7 +336,7 @@ header.sticky{
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     align-items: center;
     gap: 2.5rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .project-card{
     position: relative;
