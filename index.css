@@ -512,7 +512,7 @@ header.sticky{
 
 /* -------------responsive styling */
 
-/* @media (max-width:1480px){
+@media (max-width:1480px){
     header{
         padding: 12px 2.5%;
         transition: .1s;
@@ -529,10 +529,10 @@ header.sticky{
         padding: 15px 3%;
     }
     #calendar{
-        width: 100%; */
+        width: 100%;
         /* margin: auto;
         margin-top: 50px; */
-    /* }
+    }
     .ht1{
         width: 100%;
         
@@ -565,10 +565,10 @@ header.sticky{
         justify-content: space-between;
       }
       #calendar{
-        width: 100%; */
+        width: 100%;
         /* margin: auto;
         margin-top: 50px; */
-    /* }
+    }
     .ht1{
         width: 100%;
         
@@ -606,10 +606,10 @@ header.sticky{
         justify-content: space-between;
       }
       #calendar{
-        width: 100%; */
+        width: 100%;
         /* margin: auto;
         margin-top: 50px; */
-    /* }
+    }
     .ht1{
         width: 100%;
         
@@ -620,10 +620,10 @@ header.sticky{
        
     }
     
-} */
+}
 
 /* --------menu icons  */
-/* @media (max-width:840px){
+@media (max-width:840px){
 
     #menu-icon{
         display: block;
@@ -657,15 +657,15 @@ header.sticky{
         top:100%;
     }
     #calendar{
-        width: 100%; */
+        width: 100%;
         /* margin: auto;
         margin-top: 50px; */
-    /* }
+    }
     #stat {
        
-        display: grid; */
+        display: grid;
         /* justify-content: space-between; */
-      /* }
+      }
      .ht1{
         width: 100%;
         
@@ -675,7 +675,7 @@ header.sticky{
         grid-template-columns: repeat(auto-fit, minmax(300px, auto));
        
     }
-} */
+}
 
 
 
