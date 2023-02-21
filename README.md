@@ -36,7 +36,7 @@
 
 - Before writing a single line of code please read the problem statement very carefully.
 - If you don't follow these rules you might not get any marks even if you do everything correctly.
-- Have a look at the TestErrors on the logs page and Google them if any of your test cases have failed to figure out what might have gone wrong.
+- Have a look at the TestErrors  onthe logs page and Google them if any of your test cases have failed to figure out what might have gone wrong.
 
 ## Problem Statement and Instructions:-
 
@@ -92,3 +92,6 @@
 - so we request you to read the problem carefully and debug it before itself
 - we also request you not just submit it last minute
 - try to keep one submission at a time
+
+
+ 

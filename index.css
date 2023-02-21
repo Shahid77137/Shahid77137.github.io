@@ -248,7 +248,7 @@ header.sticky{
     font-size: var(--h2-font);
     line-height: 1;
 }
-.nav-link-skills{
+#skills-part{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
