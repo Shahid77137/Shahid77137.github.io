@@ -78,6 +78,8 @@ section{
     padding: 160px 15% 120px;
 
 }
+
+/* ------------------------------------------------------- Home section style --------------------------------------------------------- */
 #home{
     position: relative;
     height: 100vh;
@@ -193,7 +195,7 @@ header.sticky{
     padding:  12px 15%;
 }
 
-/* about section styles---------------------------------- */
+/* ---------------------------------------------------about section styles----------------------------------------------- */
 
 #about{
     border: 0px solid crimson;
@@ -230,7 +232,7 @@ header.sticky{
     margin-bottom: 4rem;
 }
 
-/* skills section style--- ---------------------------- */
+/* ----------------------------------------------------------skills section style-------------------------------------------------- */
 
 #skills{
     background: var(--second-bg-color);
@@ -327,7 +329,7 @@ header.sticky{
     
   }
 
-/* project section style--- ----------------------- */
+/* -----------------------------------------------------project section style--------------------------------------------------------- */
 /* #project{
     height: 1000px;
 } */
@@ -397,7 +399,7 @@ header.sticky{
     height: 100%;
 }
 
-/* ----------contact section style ---- ----------------------- */
+/* --------------------------------------contact section style ------------------------------------------------- */
 
 #contact{
     background: var(--second-bg-color);
@@ -510,7 +512,7 @@ header.sticky{
 }
 
 
-/* -------------responsive styling */
+/* -----------------------------------------responsive styling ------------------------------------------------*/
 
 @media (max-width:1480px){
     header{
@@ -622,7 +624,7 @@ header.sticky{
     
 }
 
-/* --------menu icons  */
+/* --------------------------------------menu icons---------------------------------------------------------- */
 @media (max-width:840px){
 
     #menu-icon{
