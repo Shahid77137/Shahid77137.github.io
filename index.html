@@ -34,11 +34,18 @@
             <li><a href="#projects"> Projects</a></li>
             <li><a href="#githubs" > GitHub</a></li>
             <li><a href="#contact"> Contact</a></li>
-            <li>
+            <!-- <li>
                 <button id="resume-button-1" onclick="window.open('https://drive.google.com/file/d/1qHGUfyzCZpWwPCLKIIJxZzLu07ItXL84/view')">
                     <a  href="./files/Shahid_Afridi_Resume.pdf" download 
                     id="resume-link-1" class="nav-link resume" >Resume</a></button> 
+                </li> -->
+
+                <li class="nav_items nav-link resume">
+                <button class="button nav-link resume" id="resume-button-1" type="button" onclick="openResume()">
+                <a id="resume-link-1" href="https://drive.google.com/file/d/1qHGUfyzCZpWwPCLKIIJxZzLu07ItXL84/view" download="Shahid_Afridi_Resume">Resume</a>
+                </button>
                 </li>
+
             </ul>
 
         </ul>
@@ -343,12 +350,12 @@
 
         </div>
         <div class="contact-form">
-            <form action="">
-                <input type="name" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email Address" required>
-                <input type="" placeholder="Your Mobile Number" required>
-                <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
-                <input type="submit" value="Send Message" class="submit" required>
+            <form name="submit-to-google-sheet">
+                <input type="name" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <input type="text" name="mobile" placeholder="Your Mobile Number" required>
+                <textarea name="message" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+                <input type="submit"  value="Send Message" class="submit" required>
             </form>
         </div>
 
@@ -376,6 +383,17 @@
 
     <!-- custom js link -->
     <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyDY7gOqNRywYZcqxWoKA-j8sqKMztOaiaekrHuuHHW67bpyfjIt1NLBPny92n6c4pxRA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 </html>
 <script src="./index.js"></script>
